@@ -14,6 +14,7 @@ You will need to make sure you have the BlueZ developer headers
 
 - Returns two 8 byte packets
 - First 4 in each are not used
+- Byte 4 is `0x01` if pressed and `0x00` if released
 - Joystick analog values are not accurate either
 - dpad have one set with leading 0's and one with direction values
 - Last 4 byte button map:
